@@ -1,0 +1,30 @@
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(135, 92, 27);
+    margin-top: 20px;
+}
+.image {
+    height: 200px;
+    padding: 8px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.card {
+    border: 2px solid goldenrod;
+    width: 23%;
+    margin-top: 35px;
+    /* height: 70%; */
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    /* box-shadow: rgb(195, 195, 195) 2px 4px 5px 5px; */
+}
+.category, .price {
+    font-size: 17px;
+    font-weight: 500;
+    color: gainsboro;
+}
