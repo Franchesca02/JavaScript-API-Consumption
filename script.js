@@ -8,7 +8,7 @@ fetch("https://fakestoreapi.com/products/")
     let result = "";
     allData.map((responses) =>{
         result+= `<div class="card">
-        <h1 class="text-1xl text-gray-900 font-bold underline">${responses.title}</h1>
+        <a href="#"><h1 class="text-1xl text-yellow-700 font-bold underline">${responses.title}</h1></a>
         <img src=${responses.image} alt="product images" class="image" />
         <p class="description">${responses.description}</p>
         <p class="category">${responses.category}</p>
